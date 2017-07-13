@@ -1,0 +1,323 @@
+
+
+body {
+	font: 14px 'Oswald', sans-serif;
+	color: #8f8f8f;
+	font: 12px Tahoma, sans-serif;
+	border-top: 5px solid #797979;
+	margin: 0;
+	background-image: url(img/Inna.png);
+	
+}
+
+.wrapper {
+	width: 960px;
+	margin: auto;
+}
+
+header {
+	padding: 20px 0;
+}
+ form  {
+ 	float: right;
+ }
+
+ header input {
+ 	background-color: #F3F3F3;
+ 	color: #b2b2b2;
+ 	border: 1px solid #E7E7E7;
+ 	height: 30px;
+ 	padding: 0 10px;
+ 	vertical-align: top;
+ }
+ header button {
+ 	background-color: #29C5E6;
+ 	color: #fff;
+ 	height: 32px;
+ 	border: none;
+ 	font-family: 'Oswald', sans-serif;
+ }
+
+ nav a {
+ 	text-decoration: none;
+ 	color: #b2b2b2;
+ 	
+ }
+ nav ul {
+ 	padding: 0;
+ 	margin: 0;
+ }
+ nav li {
+ 	font: 14px 'Oswald', sans-serif;
+ 	list-style-position: inside;
+ 	padding: 10px;
+ 	border: 1px solid #EBEBEB;
+
+ }
+
+ .top_mnu li {
+ 	 display: inline-block;
+ 	 padding: 10px 30px;
+ 	 margin: 0;
+ }
+
+
+
+  .top_mnu li.active {
+ 	background-color: #29C5E6;
+ 	
+ }
+  .top_mnu li.active a {
+ 	color: #FFFFFF;
+ 	
+ 	
+ }
+
+ .heading {
+ 	background-image:  url(img/h1-bg.png);
+ 	margin: 30px 0;
+ 	padding-left: 20px;
+ }
+
+ .heading h1 {
+ 	display: inline-block;
+ 	color: #7E7E7E;
+ 	font: 40px 'Oswald', sans-serif;
+ 	margin: 0;
+ 	padding: 0 10px;
+ 	background-image: url(img/Inna.png);
+ 	
+ }
+
+ aside {
+ 	float: left;
+ 	width: 250px;
+ 	
+ }
+
+ section {
+ 	margin-left: 280px;
+ 	padding-bottom: 50px;
+ }
+
+ .aside_mnu li {
+ 	font-weight: 300;
+ 	list-style-type: square;
+ 	border: 1px solid #E7E7E7;
+ }
+
+ .aside_mnu li:hover {
+	background-color: #D3D3D3;
+	color: black;
+ }
+
+ .aside_mnu li:active {
+ 	color: #29C5E6;
+ }
+ .aside-menu a {
+	color: #8f8f8f;
+}
+aside h2 {
+	font: 14px 'Oswald', sans-serif;
+	background-color: #29C5E6;
+	padding: 10px;
+	color: #fff;
+	margin: 30px 0 0 0;
+}
+aside p {
+	background-color: #f3f3f3;
+	margin: 0;
+	padding: 10px;
+	border: 1px solid #E7E7E7;
+}
+
+blockquote {
+	background-color: #29C5E6;
+	padding: 10px 20px;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	font-weight: 300;
+}
+blockquote p {
+	color: #fff;
+	font-style: italic;
+	font-size: 25px;
+	margin: 0;
+
+}
+blockquote cite {
+	display: block;
+	font-size: 20px;
+	font-style: normal;
+	text-align: right;
+	margin: 0;
+	color: #1d8ea6;
+}
+section .content {
+	margin-top: 20px;
+}
+figure {
+ display: inline-block;
+ margin: 0;
+}
+
+figure img {
+	margin-top: 20px;
+	display: block;
+	border: 1px solid #FFF;
+	outline: 1px solid #c9c9c9;
+}
+
+section > figure + figure {
+	margin-left: 28px;
+}
+
+section h1 {
+	color: #fff;
+	background-color: #29C5E6;
+	font: 25px 'Oswald', sans-serif;
+	padding: 10px 20px;
+	font-weight: 300;
+}
+.team_row > figure + figure {
+	margin-left: 43px;
+}
+figure figcaption {
+	margin-top: 20px;
+	font-size: 16px;
+	font: 16px 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+figure span {
+	color: #29C5E6;
+}
+
+footer {
+	background-color: #7E7E7E;
+	color: #D6D6D6;
+	font-size: 12px;
+}
+
+
+.footer	{
+	max-width: 960px;
+	height: 90px;
+	padding: 10px 0;
+	margin: auto;
+}
+
+footer h3 {
+	font:  14px 'Oswald', sans-serif;
+	color: #fff;
+	border-bottom: 1px solid #919191;
+	margin: 0 0 10px 0;
+}
+
+
+#twitter time a {
+	color: #b4aeae;
+}
+
+footer p {
+	margin: 5px 0;
+}
+
+.twitter {
+	float: left;
+	width: 300px;
+}
+.twitter p {
+	padding-right: 10px;
+}
+
+footer a {
+	color: #dbdbdb;;
+}
+
+.sitemap {
+	width: 150px;
+	float: left;
+	margin-left: 20px;
+	padding-right: 15px;
+}
+.sitemap div {
+	display: inline-block;
+}
+.sitemap div + div {
+	margin-left: 40px;
+}
+.sitemap a {
+	display: block;
+	text-decoration: none;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+.sitemap a:hover {
+	text-decoration: underline;
+}
+
+.social {
+	width: 130px;
+	float: left;
+	margin-left: 20px;
+}
+.social-icon {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background-image: url(img/social.png);
+	background-repeat: no-repeat;
+	margin-right: 10px;
+}
+
+.social-icon-small {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background-image: url(img/social-small.png);
+	background-repeat: no-repeat;
+	margin: 5px 6px 0 0;
+	
+}
+
+.twitter_1 {
+	background-position: 0 0;
+}
+
+.facebook  {
+	background-position: -30px 0;
+}
+
+.google-plus {
+	background-position: -60px 0;
+}
+
+.vimeo {
+	background-position: 0 0;
+}
+
+.youtube {
+	background-position: -16px 0;
+}
+
+.flickr {
+	background-position:  -32px 0;
+}
+
+.instagram {
+	background-position: -48px 0;
+}
+
+.rss {
+	background-position: -64px 0;
+}
+
+.logo_footer {
+	float: right;
+	margin-top: 20px;
+	font-size: 10px;
+	text-align: right;
+}
