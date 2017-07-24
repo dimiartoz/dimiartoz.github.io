@@ -1,0 +1,200 @@
+body {
+	max-width: 1344px;
+
+}
+.wrapper {
+	
+	font-family: "OpenSans-Light", sans-serif;
+	margin: 0 auto;
+	position: relative;
+
+
+	
+}
+
+header {
+	background-image: url(../img/bg_1.jpg);
+	min-height: 651px;
+	
+	background-position: top center;
+	background-repeat: no-repeat;
+
+	
+	
+}
+
+.row .icon_set {
+	margin-top: 28px;
+}
+
+
+
+	
+}
+.row img {
+	margin-left: 15px;
+}
+
+header p {
+	
+	color: #fff;
+	font: 33px "Myriad Pro", sans-serif;
+	text-align: center;
+
+
+}
+header p span {
+	color: red;
+}
+
+#button_d {
+	font-family: "OpenSans-Bold", sans-serif;
+	font-size: 24px;
+	border: 2px solid white;
+	padding: 12px 25px 12px 25px;
+	border-radius: 3px;
+}
+
+.header_text {
+	margin-top: 230px;
+}
+
+
+.about_us {
+	height: 245px; 
+	background-color: #E4FBE0;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 60px;
+	
+}
+
+.about_us h3,
+.our_history h3,
+.our_skills h3,
+.our_team h3,
+.contact_us h3 {
+	font-size: 24px;
+
+}
+
+.about_us p,
+.our_history p,
+.our_skills p,
+.our_team p, 
+.contact_us p {
+	font-size: 16px;
+	color: #929292;
+}
+
+.our_history {
+	text-align: justify;
+	height: 600px;
+}
+
+.our_history img {
+	width: 573px;
+	height: 600px;
+	margin-top: 0;
+	margin-left: 87px;
+}
+
+.our_history h3 {
+	padding-top: 55px;
+}
+.our_history p {
+	margin-right: 87px;
+}
+
+.our_skills {
+	background-color: #E4FBE0;
+	text-align: center;
+	padding-top: 30px;
+	height: 475px;
+	margin-left: 7px;
+}
+
+.our_skills img {
+	margin: 63px auto;
+}
+
+.our_team {
+	height: 588px;
+	text-align: center;
+	
+}
+
+.our_team img {
+	margin-top: 66px;
+}
+
+.our_team span {
+	float: left;
+	margin-top: 20px;
+	font-family: "OpenSans-light", sans-serif;
+	
+}
+
+
+
+.contact_us {
+	padding-top: 63px;
+	height: 671px;
+	background-color: #E4FBE0;
+}
+
+.contacts {
+	margin-top: 67px;
+}
+
+.contacts_left img {
+	margin-right: 11px;
+}
+
+#text_left {
+	text-align: justify;
+} 
+
+input[type="text"] {
+	margin-right: 30px;
+	margin-bottom: 20px;
+	padding: 10px 0 10px 10px;
+	font-family: "OpenSans-light", sans-serif;
+	color: #929292;
+}
+
+#input_sbj {
+	height: 150px;
+}
+
+#btn_send {
+	background-color: red;
+	color: white;
+	border: 0;
+	height: 50px;
+	width: 30%;
+	font-family: "OpenSans-Bold", sans-serif;
+	font-size: 20px;
+	border-radius: 3px;
+	margin-top: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
